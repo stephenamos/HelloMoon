@@ -16,6 +16,12 @@ public class HelloMoonFragment extends Fragment {
 	private Button mStopButton;
 
 	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setRetainInstance(true); //Retains the fragment, allowing smooth media playback when rotating the screen
+	}
+	
+	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_hello_moon, parent, false);
 
