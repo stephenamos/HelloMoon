@@ -47,6 +47,7 @@ public final class R {
         public static final int app_name=0x7f060000;
         public static final int hello_world=0x7f060002;
         public static final int hellomoon_description=0x7f060006;
+        public static final int hellomoon_image_description=0x7f060007;
         public static final int hellomoon_pause=0x7f060004;
         public static final int hellomoon_play=0x7f060003;
         public static final int hellomoon_stop=0x7f060005;
@@ -66,12 +67,6 @@ public final class R {
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
     
  API 11 theme customizations can go here. 
-
-        Base application theme for API 14+. This theme completely replaces
-        AppBaseTheme from BOTH res/values/styles.xml and
-        res/values-v11/styles.xml on API 14+ devices.
-    
- API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
